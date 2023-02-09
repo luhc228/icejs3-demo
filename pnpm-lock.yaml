@@ -30,6 +30,27 @@ importers:
       html-loader: 4.2.0
       markdown-loader: 8.0.0
 
+  demos/use-plugin:
+    specifiers:
+      '@ice/app': ^3.0.0
+      '@ice/runtime': ^1.0.0
+      '@types/node': ^18.11.17
+      '@types/react': ^18.0.0
+      '@types/react-dom': ^18.0.0
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      speed-measure-webpack-plugin: ^1.5.0
+    dependencies:
+      '@ice/runtime': 1.1.0_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    devDependencies:
+      '@ice/app': 3.1.0_biqbaboplfbrettd7655fr4n2y
+      '@types/node': 18.11.19
+      '@types/react': 18.0.27
+      '@types/react-dom': 18.0.10
+      speed-measure-webpack-plugin: 1.5.0
+
 packages:
 
   /@ampproject/remapping/2.2.0:
@@ -3573,6 +3594,15 @@ packages:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
     requiresBuild: true
+    dev: true
+
+  /speed-measure-webpack-plugin/1.5.0:
+    resolution: {integrity: sha512-Re0wX5CtM6gW7bZA64ONOfEPEhwbiSF/vz6e2GvadjuaPrQcHTQdRGsD8+BE7iUOysXH8tIenkPCQBEcspXsNg==}
+    engines: {node: '>=6.0.0'}
+    peerDependencies:
+      webpack: ^1 || ^2 || ^3 || ^4 || ^5
+    dependencies:
+      chalk: 4.1.2
     dev: true
 
   /stable/0.1.8:
