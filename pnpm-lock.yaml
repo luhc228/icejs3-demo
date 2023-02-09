@@ -5,32 +5,7 @@ importers:
   .:
     specifiers: {}
 
-  demos/use-loader:
-    specifiers:
-      '@ice/app': ^3.0.0
-      '@ice/runtime': ^1.0.0
-      '@svgr/webpack': ^6.5.1
-      '@types/node': ^18.11.17
-      '@types/react': ^18.0.0
-      '@types/react-dom': ^18.0.0
-      html-loader: ^4.2.0
-      markdown-loader: ^8.0.0
-      react: ^18.2.0
-      react-dom: ^18.2.0
-    dependencies:
-      '@ice/runtime': 1.1.0_biqbaboplfbrettd7655fr4n2y
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
-    devDependencies:
-      '@ice/app': 3.1.0_biqbaboplfbrettd7655fr4n2y
-      '@svgr/webpack': 6.5.1
-      '@types/node': 18.11.19
-      '@types/react': 18.0.27
-      '@types/react-dom': 18.0.10
-      html-loader: 4.2.0
-      markdown-loader: 8.0.0
-
-  demos/use-plugin:
+  demos/use-configs:
     specifiers:
       '@ice/app': ^3.0.0
       '@ice/runtime': ^1.0.0
@@ -69,6 +44,52 @@ importers:
       '@types/node': 18.11.19
       '@types/react': 18.0.27
       '@types/react-dom': 18.0.10
+
+  demos/use-webpack-loader:
+    specifiers:
+      '@ice/app': ^3.0.0
+      '@ice/runtime': ^1.0.0
+      '@svgr/webpack': ^6.5.1
+      '@types/node': ^18.11.17
+      '@types/react': ^18.0.0
+      '@types/react-dom': ^18.0.0
+      html-loader: ^4.2.0
+      markdown-loader: ^8.0.0
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      '@ice/runtime': 1.1.0_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    devDependencies:
+      '@ice/app': 3.1.0_biqbaboplfbrettd7655fr4n2y
+      '@svgr/webpack': 6.5.1
+      '@types/node': 18.11.19
+      '@types/react': 18.0.27
+      '@types/react-dom': 18.0.10
+      html-loader: 4.2.0
+      markdown-loader: 8.0.0
+
+  demos/use-webpack-plugin:
+    specifiers:
+      '@ice/app': ^3.0.0
+      '@ice/runtime': ^1.0.0
+      '@types/node': ^18.11.17
+      '@types/react': ^18.0.0
+      '@types/react-dom': ^18.0.0
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      speed-measure-webpack-plugin: ^1.5.0
+    dependencies:
+      '@ice/runtime': 1.1.0_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    devDependencies:
+      '@ice/app': 3.1.0_biqbaboplfbrettd7655fr4n2y
+      '@types/node': 18.11.19
+      '@types/react': 18.0.27
+      '@types/react-dom': 18.0.10
+      speed-measure-webpack-plugin: 1.5.0
 
 packages:
 
