@@ -8,9 +8,10 @@
   },
   "devDependencies": {
     "@ice/app": "^3.0.0",
+    "@ice/plugin-request": "^1.0.0",
+    "@types/node": "^18.11.17",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
-    "@types/node": "^18.11.17",
     "speed-measure-webpack-plugin": "^1.5.0"
   },
   "scripts": {
